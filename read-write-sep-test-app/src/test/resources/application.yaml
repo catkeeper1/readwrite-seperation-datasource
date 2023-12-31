@@ -1,0 +1,27 @@
+spring:
+  main:
+    allow-circular-references: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  h2:
+    console:
+      path: /h2-console
+      settings.trace: false
+      settings.web-allow-others: false
+      enabled: true
+
+
+
+logging:
+  level:
+    root: INFO
+    org:
+      ckr: DEBUG
+      springframework:
+        transaction: DEBUG
+        orm:
+          jpa: DEBUG
+
+
+

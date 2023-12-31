@@ -1,0 +1,11 @@
+spring:
+  datasource:
+  liquibase:
+    enabled: false
+
+
+
+
+
+
+
